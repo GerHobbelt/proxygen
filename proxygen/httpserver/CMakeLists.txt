@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 add_library(
-    proxygenhttpserver STATIC
+    proxygenhttpserver SHARED
     RequestHandlerAdaptor.cpp
     SignalHandler.cpp
     HTTPServerAcceptor.cpp

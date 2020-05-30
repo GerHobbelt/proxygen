@@ -91,7 +91,7 @@ if (BUILD_QUIC)
 endif()
 
 add_library(
-    proxygen STATIC
+    proxygen SHARED
     healthcheck/ServerHealthCheckerCallback.cpp
     http/codec/CodecProtocol.cpp
     http/codec/CodecUtil.cpp
