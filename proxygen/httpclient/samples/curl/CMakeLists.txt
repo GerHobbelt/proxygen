@@ -31,6 +31,7 @@ install(
     EXPORT proxygen-exports
     DESTINATION bin
 )
+install(FILES CurlClient.h DESTINATION include/proxygen/httpclient/curl/)
 install(
     TARGETS proxygencurl
     EXPORT proxygen-exports
